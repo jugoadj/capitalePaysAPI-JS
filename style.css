@@ -7,11 +7,14 @@ html {
    
   }
 body {
-      background-size: cover;
+      background-repeat: no-repeat;
       margin:0;
       padding:0;
       background-position: center;
-      background-color: rgb(31, 30, 30);
+      background-image: url(carte.png) ;
+      background-position-y: -45% ;
+
+    
 }
 
   *, *:before, *:after {
@@ -69,9 +72,11 @@ body {
 
 
   span.population {
-    font-size: 15px;
+    font-size: 20px;
   }
 
   .hl {
     background: #ffc600;
   }
+
+  
